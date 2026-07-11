@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="display_formula_size">16sp</dimen>
+    <dimen name="display_result_size">40sp</dimen>
+    <dimen name="display_padding">16dp</dimen>
+    <dimen name="btn_calc_size">0dp</dimen>
+    <dimen name="btn_calc_margin">4dp</dimen>
+    <dimen name="btn_calc_corner">12dp</dimen>
+    <dimen name="btn_calc_text_size">22sp</dimen>
+    <dimen name="btn_calc_func_text_size">18sp</dimen>
+    <dimen name="btn_sci_text_size">14sp</dimen>
+    <dimen name="grid_padding">8dp</dimen>
+    <dimen name="display_height">120dp</dimen>
+    <dimen name="sci_panel_height">180dp</dimen>
+</resources>

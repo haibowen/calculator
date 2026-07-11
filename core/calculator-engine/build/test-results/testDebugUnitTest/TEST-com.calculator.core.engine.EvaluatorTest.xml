@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.calculator.core.engine.EvaluatorTest" tests="28" skipped="0" failures="0" errors="0" timestamp="2026-07-11T06:42:01" hostname="hyplo" time="0.089">
+  <properties/>
+  <testcase name="division by zero throws ArithmeticException()" classname="com.calculator.core.engine.EvaluatorTest" time="0.04"/>
+  <testcase name="factorial of negative throws()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="parentheses and precedence()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="power and root functions()" classname="com.calculator.core.engine.EvaluatorTest" time="0.004"/>
+  <testcase name="factorial of non-integer throws()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="property based testing random expressions()" classname="com.calculator.core.engine.EvaluatorTest" time="0.011"/>
+  <testcase name="complex expressions()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="sqrt of negative throws IllegalArgumentException()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="absolute value and deg rad conversion()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="scientific notation()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="hyperbolic functions()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="trigonometric functions()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="deg or rad parity for trigonometric functions()" classname="com.calculator.core.engine.EvaluatorTest" time="0.0"/>
+  <testcase name="nested function calls()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="property based testing random arithmetic expressions()" classname="com.calculator.core.engine.EvaluatorTest" time="0.008"/>
+  <testcase name="asin acos out of domain throws()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="log of non-positive throws()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="rounding functions()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="implicit multiplication()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="factorial operator()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="modulo operator with negative numbers()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="percent operator()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="unary operators()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="large factorial returns infinity()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="logarithmic and exponential functions()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="trigonometric functions in degree mode()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="basic arithmetic operations()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="constants pi and e()" classname="com.calculator.core.engine.EvaluatorTest" time="0.001"/>
+  <system-out><![CDATA[Reference eval error for 'pi!': Factorial only defined for non-negative integers
+Reference eval error for '(floor(52.41803462178041)%(-22.68662512813026!*pi))': Factorial only defined for non-negative integers
+Reference eval error for '(ceil(27)-log10(-47))!': log10 domain error: argument must be positive
+Reference eval error for 'sqrt((pi!^52))': Factorial only defined for non-negative integers
+Reference eval error for '(sqrt(floor(-80))%e)': Square root of negative number
+Reference eval error for 'ln(exp(-6))!': Factorial only defined for non-negative integers
+Reference eval error for '(71.07229819632656!-e%)!': Factorial only defined for non-negative integers
+Reference eval error for '-67.97384914236382!!%': Factorial only defined for non-negative integers
+Reference eval error for '-91%%!': Factorial only defined for non-negative integers
+Reference eval error for '(e!^-22.44076839235953!%)': Factorial only defined for non-negative integers
+Reference eval error for '((68%-pi!)/pi!!)': Factorial only defined for non-negative integers
+Reference eval error for '62.838063815723416!': Factorial only defined for non-negative integers
+Reference eval error for '(pi*(-56.54360499572575+-46)!)': Factorial only defined for non-negative integers
+Reference eval error for 'log(-100)!%': log domain error: argument must be positive
+Reference eval error for 'abs(cos(7.478785545033318))!': Factorial only defined for non-negative integers
+Reference eval error for 'exp(sqrt(-38.48627822321271))!': Square root of negative number
+Reference eval error for '92%!': Factorial only defined for non-negative integers
+Reference eval error for '24.57088403259627%!': Factorial only defined for non-negative integers
+Reference eval error for 'ceil((-10%61)!)': Factorial only defined for non-negative integers
+Reference eval error for 'pi!': Factorial only defined for non-negative integers
+Reference eval error for 'sqrt((e!*e!))': Factorial only defined for non-negative integers
+Reference eval error for 'e!': Factorial only defined for non-negative integers
+Reference eval error for 'ln((-36.15397671279634!*62.1616889538372))': Factorial only defined for non-negative integers
+Reference eval error for '(pi!*-62.14904627601421)!': Factorial only defined for non-negative integers
+Reference eval error for '((-56!*pi!)^(floor(e)/-75))': Factorial only defined for non-negative integers
+Reference eval error for '(ln(e)!*86%!)': Factorial only defined for non-negative integers
+Reference eval error for '-82%%!': Factorial only defined for non-negative integers
+Reference eval error for 'pi!': Factorial only defined for non-negative integers
+Reference eval error for '(pi^cbrt(-47.19787002419431)!)': Factorial only defined for non-negative integers
+Reference eval error for 'sin((-11.148471267178039*6))!': Factorial only defined for non-negative integers
+Reference eval error for 'sqrt(78.26634145951482!)': Factorial only defined for non-negative integers
+Reference eval error for 'e!': Factorial only defined for non-negative integers
+Reference eval error for '96.34013908615768!': Factorial only defined for non-negative integers
+Reference eval error for 'cos(pi)!': Factorial only defined for non-negative integers
+Reference eval error for 'log(39.09705814857716)!': Factorial only defined for non-negative integers
+Reference eval error for 'floor(e!)!': Factorial only defined for non-negative integers
+Reference eval error for '(abs(e)!^-8.38491574017371%)': Factorial only defined for non-negative integers
+Reference eval error for '(-46.361873121184736%e)%!': Factorial only defined for non-negative integers
+Reference eval error for '((17.902231837677988*69.76352166501721!)-64.1269977424775%%)': Factorial only defined for non-negative integers
+Reference eval error for 'abs(92.24067772578474!!)': Factorial only defined for non-negative integers
+Reference eval error for 'sqrt(abs(52.19373557568224))!': Factorial only defined for non-negative integers
+Reference eval error for 'tan(-73%!)': Factorial only defined for non-negative integers
+Reference eval error for '(((-7.256286198158406^97)^(-24%-24.32811189736168))/(pi-97.96294152643455)!)': Factorial only defined for non-negative integers
+Reference eval error for 'exp(-6.357707544629207!)': Factorial only defined for non-negative integers
+Reference eval error for '((-82^-93)!-93%!)': Factorial only defined for non-negative integers
+Reference eval error for 'log(pi)%!': Factorial only defined for non-negative integers
+Reference eval error for '36%%!': Factorial only defined for non-negative integers
+Reference eval error for 'e!': Factorial only defined for non-negative integers
+Reference eval error for 'ln(((e%89)^pi!))': Factorial only defined for non-negative integers
+Reference eval error for '(9.541686983834154-13.514228987419145)!%': Factorial only defined for non-negative integers
+Reference eval error for '(floor(pi)%*(57.57367563236514/pi)!)': Factorial only defined for non-negative integers
+Reference eval error for 'sin(30)!': Factorial only defined for non-negative integers
+Reference eval error for 'pi!%!': Factorial only defined for non-negative integers
+Reference eval error for '20.34066278706139!': Factorial only defined for non-negative integers
+Reference eval error for 'log10(cos(e)%)': log10 domain error: argument must be positive
+Reference eval error for '(e!%59!)!': Factorial only defined for non-negative integers
+Reference eval error for 'e!': Factorial only defined for non-negative integers
+Reference eval error for 'pi!': Factorial only defined for non-negative integers
+Reference eval error for '(-3+pi!!)': Factorial only defined for non-negative integers
+Reference eval error for 'pi!': Factorial only defined for non-negative integers
+Reference eval error for '((60/-3)/abs(-92))!': Factorial only defined for non-negative integers
+Reference eval error for '42%!%': Factorial only defined for non-negative integers
+Reference eval error for '(((-97-48.12297579133539)*e%)*(e!*(e/-6)))': Factorial only defined for non-negative integers
+Reference eval error for '((-35.049927996132624!%(e+-96))--87!%)': Factorial only defined for non-negative integers
+Reference eval error for '(abs(pi!)/abs(-28.13178861203663)!)': Factorial only defined for non-negative integers
+Reference eval error for 'cbrt(exp(-82.70028152572873))!': Factorial only defined for non-negative integers
+Reference eval error for '(cbrt(pi!)+91.2370579636289!)': Factorial only defined for non-negative integers
+Reference eval error for '(-43.13938664134589!!-round(-16)!)': Factorial only defined for non-negative integers
+Reference eval error for '((-71.47278101639007!*47.0043658921706)^(e/(85*79.080134780094)))': Factorial only defined for non-negative integers
+Reference eval error for '(57!%-47.098252868073786)!': Factorial only defined for non-negative integers
+Reference eval error for 'cos(e!!)': Factorial only defined for non-negative integers
+Reference eval error for '(96.20737605396772!*abs(-44.334535086243456))!': Factorial only defined for non-negative integers
+Reference eval error for '(-2!--21.17605577769197!)': Factorial only defined for non-negative integers
+Reference eval error for '(pi*pi!!)': Factorial only defined for non-negative integers
+Reference eval error for 'ln((pi/-33.84582229813135))!': ln domain error: argument must be positive
+Reference eval error for 'sin(55.91038680279405!)': Factorial only defined for non-negative integers
+Property test: 124 passed, 76 errors
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

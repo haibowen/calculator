@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/grid_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btn_clear" android:text="@string/btn_clear" style="@style/CalcButtonNum" />
+        <Button android:id="@+id/btn_paren" android:text="@string/btn_paren" style="@style/CalcButtonFunc" />
+        <Button android:id="@+id/btn_percent" android:text="@string/btn_percent" style="@style/CalcButtonFunc" />
+        <Button android:id="@+id/btn_divide" android:text="@string/btn_divide" style="@style/CalcButtonOp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btn_7" android:text="7" style="@style/CalcButtonNum" />
+        <Button android:id="@+id/btn_8" android:text="8" style="@style/CalcButtonNum" />
+        <Button android:id="@+id/btn_9" android:text="9" style="@style/CalcButtonNum" />
+        <Button android:id="@+id/btn_multiply" android:text="@string/btn_multiply" style="@style/CalcButtonOp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btn_4" android:text="4" style="@style/CalcButtonNum" />
+        <Button android:id="@+id/btn_5" android:text="5" style="@style/CalcButtonNum" />
+        <Button android:id="@+id/btn_6" android:text="6" style="@style/CalcButtonNum" />
+        <Button android:id="@+id/btn_subtract" android:text="@string/btn_subtract" style="@style/CalcButtonOp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btn_1" android:text="1" style="@style/CalcButtonNum" />
+        <Button android:id="@+id/btn_2" android:text="2" style="@style/CalcButtonNum" />
+        <Button android:id="@+id/btn_3" android:text="3" style="@style/CalcButtonNum" />
+        <Button android:id="@+id/btn_add" android:text="@string/btn_add" style="@style/CalcButtonOp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btn_negate" android:text="@string/btn_negate" style="@style/CalcButtonFunc" />
+        <Button android:id="@+id/btn_0" android:text="0" style="@style/CalcButtonNum" />
+        <Button android:id="@+id/btn_decimal" android:text="@string/btn_decimal" style="@style/CalcButtonNum" />
+        <Button android:id="@+id/btn_equals" android:text="@string/btn_equals" style="@style/CalcButtonEq" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Calculator" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/cal_accent</item>
+        <item name="colorPrimaryDark">@color/cal_accent</item>
+        <item name="colorAccent">@color/cal_accent</item>
+        <item name="android:windowBackground">@color/cal_display_bg_dark</item>
+    </style>
+</resources>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/mac/.gradle/daemon/8.10.2/com.example.calculator.app-calculator-mergeDebugResources-42:/layout/panel_grid_basic.xml",
+        "source": "/Users/mac/.gradle/daemon/8.10.2/com.example.calculator.app-calculator-main-45:/layout/panel_grid_basic.xml"
+    },
+    {
+        "merged": "/Users/mac/.gradle/daemon/8.10.2/com.example.calculator.app-calculator-mergeDebugResources-42:/layout/activity_calculator.xml",
+        "source": "/Users/mac/.gradle/daemon/8.10.2/com.example.calculator.app-calculator-main-45:/layout/activity_calculator.xml"
+    },
+    {
+        "merged": "com.example.calculator.app-calculator-mergeDebugResources-42:/layout/panel_grid_scientific.xml",
+        "source": "com.example.calculator.app-calculator-main-45:/layout/panel_grid_scientific.xml"
+    },
+    {
+        "merged": "com.example.calculator.app-calculator-mergeDebugResources-42:/layout/panel_grid_basic.xml",
+        "source": "com.example.calculator.app-calculator-main-45:/layout/panel_grid_basic.xml"
+    },
+    {
+        "merged": "/Users/mac/.gradle/daemon/8.10.2/com.example.calculator.app-calculator-mergeDebugResources-42:/layout/panel_grid_scientific.xml",
+        "source": "/Users/mac/.gradle/daemon/8.10.2/com.example.calculator.app-calculator-main-45:/layout/panel_grid_scientific.xml"
+    },
+    {
+        "merged": "/Users/mac/.gradle/daemon/8.10.2/com.example.calculator.app-calculator-mergeDebugResources-42:/layout/panel_history.xml",
+        "source": "/Users/mac/.gradle/daemon/8.10.2/com.example.calculator.app-calculator-main-45:/layout/panel_history.xml"
+    },
+    {
+        "merged": "/Users/mac/.gradle/daemon/8.10.2/com.example.calculator.app-calculator-mergeDebugResources-42:/layout/item_history.xml",
+        "source": "/Users/mac/.gradle/daemon/8.10.2/com.example.calculator.app-calculator-main-45:/layout/item_history.xml"
+    }
+]

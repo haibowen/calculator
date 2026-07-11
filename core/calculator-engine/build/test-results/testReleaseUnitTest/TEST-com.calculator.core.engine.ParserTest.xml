@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.calculator.core.engine.ParserTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2026-07-11T06:41:38" hostname="hyplo" time="0.006">
+  <properties/>
+  <testcase name="parse parentheses override precedence()" classname="com.calculator.core.engine.ParserTest" time="0.0"/>
+  <testcase name="parse throws on invalid syntax()" classname="com.calculator.core.engine.ParserTest" time="0.001"/>
+  <testcase name="parse function calls()" classname="com.calculator.core.engine.ParserTest" time="0.0"/>
+  <testcase name="parse mixed operators with factorial and percent()" classname="com.calculator.core.engine.ParserTest" time="0.0"/>
+  <testcase name="parse right-associative power operator()" classname="com.calculator.core.engine.ParserTest" time="0.001"/>
+  <testcase name="parse chained power with unary minus()" classname="com.calculator.core.engine.ParserTest" time="0.0"/>
+  <testcase name="parse constants()" classname="com.calculator.core.engine.ParserTest" time="0.0"/>
+  <testcase name="parse nested function calls()" classname="com.calculator.core.engine.ParserTest" time="0.0"/>
+  <testcase name="parse percent operator()" classname="com.calculator.core.engine.ParserTest" time="0.001"/>
+  <testcase name="parse complex nested expressions()" classname="com.calculator.core.engine.ParserTest" time="0.0"/>
+  <testcase name="parse unary minus()" classname="com.calculator.core.engine.ParserTest" time="0.0"/>
+  <testcase name="parse factorial operator()" classname="com.calculator.core.engine.ParserTest" time="0.0"/>
+  <testcase name="parse modulo operator()" classname="com.calculator.core.engine.ParserTest" time="0.0"/>
+  <testcase name="parse implicit multiplication()" classname="com.calculator.core.engine.ParserTest" time="0.0"/>
+  <testcase name="parse operator precedence - multiplication before addition()" classname="com.calculator.core.engine.ParserTest" time="0.0"/>
+  <testcase name="parse negative numbers in parentheses()" classname="com.calculator.core.engine.ParserTest" time="0.0"/>
+  <testcase name="parse complex expressions with multiple operators()" classname="com.calculator.core.engine.ParserTest" time="0.0"/>
+  <testcase name="parse throws on mismatched parentheses()" classname="com.calculator.core.engine.ParserTest" time="0.0"/>
+  <testcase name="parse scientific notation()" classname="com.calculator.core.engine.ParserTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

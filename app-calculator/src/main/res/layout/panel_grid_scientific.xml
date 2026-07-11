@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/grid_padding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btn_sin" android:text="@string/btn_sin" style="@style/CalcButtonSci" />
+        <Button android:id="@+id/btn_cos" android:text="@string/btn_cos" style="@style/CalcButtonSci" />
+        <Button android:id="@+id/btn_tan" android:text="@string/btn_tan" style="@style/CalcButtonSci" />
+        <Button android:id="@+id/btn_log" android:text="@string/btn_log" style="@style/CalcButtonSci" />
+        <Button android:id="@+id/btn_ln" android:text="@string/btn_ln" style="@style/CalcButtonSci" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btn_sqrt" android:text="@string/btn_sqrt" style="@style/CalcButtonSci" />
+        <Button android:id="@+id/btn_square" android:text="@string/btn_square" style="@style/CalcButtonSci" />
+        <Button android:id="@+id/btn_cube" android:text="@string/btn_cube" style="@style/CalcButtonSci" />
+        <Button android:id="@+id/btn_power" android:text="@string/btn_power" style="@style/CalcButtonSci" />
+        <Button android:id="@+id/btn_fact" android:text="@string/btn_fact" style="@style/CalcButtonSci" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btn_inv" android:text="@string/btn_inv" style="@style/CalcButtonSci" />
+        <Button android:id="@+id/btn_pi" android:text="@string/btn_pi" style="@style/CalcButtonSci" />
+        <Button android:id="@+id/btn_e" android:text="@string/btn_e" style="@style/CalcButtonSci" />
+        <Button android:id="@+id/btn_deg" android:text="@string/btn_deg" style="@style/CalcButtonSci" />
+        <Button android:id="@+id/btn_paren" android:text="@string/btn_paren" style="@style/CalcButtonSci" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+com.calculator.core.engine.test.calculator-engine-test-0 /Users/mac/AndroidStudioProjects/untitled folder/MyApplication2/core/calculator-engine/build/generated/res/resValues/test/release
+com.calculator.core.engine.test.calculator-engine-mergeReleaseUnitTestResources-1 /Users/mac/AndroidStudioProjects/untitled folder/MyApplication2/core/calculator-engine/build/intermediates/incremental/releaseUnitTest/mergeReleaseUnitTestResources/merged.dir
+com.calculator.core.engine.test.calculator-engine-mergeReleaseUnitTestResources-2 /Users/mac/AndroidStudioProjects/untitled folder/MyApplication2/core/calculator-engine/build/intermediates/incremental/releaseUnitTest/mergeReleaseUnitTestResources/stripped.dir
+com.calculator.core.engine.test.calculator-engine-releaseUnitTest-3 /Users/mac/AndroidStudioProjects/untitled folder/MyApplication2/core/calculator-engine/build/intermediates/merged_res/releaseUnitTest/mergeReleaseUnitTestResources
+com.calculator.core.engine.test.calculator-engine-release-4 /Users/mac/AndroidStudioProjects/untitled folder/MyApplication2/core/calculator-engine/build/intermediates/packaged_res/release/packageReleaseResources

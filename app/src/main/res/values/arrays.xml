@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="converter_categories">
+        <item>长度</item>
+        <item>重量</item>
+        <item>温度</item>
+        <item>面积</item>
+        <item>体积</item>
+        <item>速度</item>
+    </string-array>
+</resources>

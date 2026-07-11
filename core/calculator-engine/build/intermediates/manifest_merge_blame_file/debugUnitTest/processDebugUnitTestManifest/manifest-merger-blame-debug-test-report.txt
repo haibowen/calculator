@@ -1,0 +1,29 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.calculator.core.engine.test" >
+4
+5    <uses-sdk
+5-->/Users/mac/AndroidStudioProjects/untitled folder/MyApplication2/core/calculator-engine/build/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest2676581632463919317.xml:5:5-74
+6        android:minSdkVersion="24"
+6-->/Users/mac/AndroidStudioProjects/untitled folder/MyApplication2/core/calculator-engine/build/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest2676581632463919317.xml:5:15-41
+7        android:targetSdkVersion="34" />
+7-->/Users/mac/AndroidStudioProjects/untitled folder/MyApplication2/core/calculator-engine/build/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest2676581632463919317.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/mac/AndroidStudioProjects/untitled folder/MyApplication2/core/calculator-engine/build/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest2676581632463919317.xml:11:5-13:81
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/Users/mac/AndroidStudioProjects/untitled folder/MyApplication2/core/calculator-engine/build/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest2676581632463919317.xml:11:22-75
+11        android:label="Tests for com.calculator.core.engine.test"
+11-->/Users/mac/AndroidStudioProjects/untitled folder/MyApplication2/core/calculator-engine/build/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest2676581632463919317.xml:13:22-79
+12        android:targetPackage="com.calculator.core.engine.test" />
+12-->/Users/mac/AndroidStudioProjects/untitled folder/MyApplication2/core/calculator-engine/build/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest2676581632463919317.xml:12:22-77
+13
+14    <application android:debuggable="true" >
+14-->/Users/mac/AndroidStudioProjects/untitled folder/MyApplication2/core/calculator-engine/build/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest2676581632463919317.xml:7:5-9:19
+14-->/Users/mac/AndroidStudioProjects/untitled folder/MyApplication2/core/calculator-engine/build/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest2676581632463919317.xml:7:18-43
+15        <uses-library android:name="android.test.runner" />
+15-->/Users/mac/AndroidStudioProjects/untitled folder/MyApplication2/core/calculator-engine/build/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest2676581632463919317.xml:8:9-60
+15-->/Users/mac/AndroidStudioProjects/untitled folder/MyApplication2/core/calculator-engine/build/intermediates/tmp/manifest/test/debug/tempFile1ProcessTestManifest2676581632463919317.xml:8:23-57
+16    </application>
+17
+18</manifest>

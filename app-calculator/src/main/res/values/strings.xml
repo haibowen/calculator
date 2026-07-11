@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">计算器</string>
+    <string name="btn_clear">C</string>
+    <string name="btn_paren">( )</string>
+    <string name="btn_percent">%</string>
+    <string name="btn_divide">÷</string>
+    <string name="btn_multiply">×</string>
+    <string name="btn_subtract">-</string>
+    <string name="btn_add">+</string>
+    <string name="btn_equals">=</string>
+    <string name="btn_decimal">.</string>
+    <string name="btn_negate">+/−</string>
+    <string name="btn_sin">sin</string>
+    <string name="btn_cos">cos</string>
+    <string name="btn_tan">tan</string>
+    <string name="btn_log">log</string>
+    <string name="btn_ln">ln</string>
+    <string name="btn_sqrt">√</string>
+    <string name="btn_square">x²</string>
+    <string name="btn_cube">x³</string>
+    <string name="btn_power">xⁿ</string>
+    <string name="btn_fact">x!</string>
+    <string name="btn_pi">π</string>
+    <string name="btn_e">e</string>
+    <string name="btn_deg">Deg</string>
+    <string name="btn_rad">Rad</string>
+    <string name="btn_inv">INV</string>
+    <string name="sci_label">科学</string>
+    <string name="history_label">历史</string>
+    <string name="expr_error">表达式错误</string>
+    <string name="div_zero">除数不能为零</string>
+    <string name="overflow">结果过大</string>
+    <string name="invalid_input">输入无效</string>
+    <string name="no_history">暂无历史记录</string>
+    <string name="clear_history">清空</string>
+</resources>

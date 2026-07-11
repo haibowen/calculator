@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/calculator_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/easter_egg_layout_stub" android:visibility="gone" android:layout="@layout/easter_egg_layout_land" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <com.calculator.advanced.CalculatorFrameLayout android:id="@id/calculator_frame" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/pad_numeric">
+        <com.calculator.ui.widget.google.CalculatorDisplay android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/original_display" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr" android:paddingStart="@dimen/dimens_16dp">
+            <com.calculator.ui.widget.google.CalculatorScrollView android:id="@id/formula_container" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:layout_marginEnd="@dimen/formula_padding_end_land">
+                <com.calculator.ui.widget.google.CalculatorFormula android:textColor="@color/display_formula_text_color" android:gravity="bottom" android:id="@id/formula" android:background="@color/formula_tint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:forceDarkAllowed="false" style="@style/DisplayTextStyle.Formula.phone" />
+            </com.calculator.ui.widget.google.CalculatorScrollView>
+            <com.calculator.ui.widget.google.CalculatorResult android:textColor="@color/display_result_text_color" android:id="@id/result" android:layout_width="match_parent" android:layout_height="wrap_content" android:bufferType="spannable" android:singleLine="true" android:layout_below="@id/formula_container" style="@style/DisplayTextStyle.Result.phone" />
+        </com.calculator.ui.widget.google.CalculatorDisplay>
+    </com.calculator.advanced.CalculatorFrameLayout>
+    <include android:gravity="bottom" android:layout_width="match_parent" android:layout_height="@dimen/sliding_view_height_land_232" android:layout_marginBottom="@dimen/land_keyboard_paddingBottom" android:layout_alignParentBottom="true" layout="@layout/pad_numeric_land_all" />
+</RelativeLayout>

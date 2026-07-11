@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Calculator" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/cal_accent</item>
+        <item name="colorPrimaryDark">@color/cal_accent</item>
+        <item name="colorAccent">@color/cal_accent</item>
+        <item name="android:windowBackground">@color/cal_display_bg</item>
+    </style>
+
+    <style name="CalcButtonNum" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">@dimen/btn_calc_margin</item>
+        <item name="android:background">@drawable/btn_calc_rounded</item>
+        <item name="android:textSize">@dimen/btn_calc_text_size</item>
+        <item name="android:textColor">@color/cal_btn_number_text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="CalcButtonOp" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">@dimen/btn_calc_margin</item>
+        <item name="android:background">@drawable/btn_calc_op_rounded</item>
+        <item name="android:textSize">@dimen/btn_calc_text_size</item>
+        <item name="android:textColor">@color/cal_btn_op_text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="CalcButtonEq" parent="CalcButtonOp">
+        <item name="android:background">@drawable/btn_calc_eq_rounded</item>
+    </style>
+
+    <style name="CalcButtonFunc" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">@dimen/btn_calc_margin</item>
+        <item name="android:background">@drawable/btn_calc_func_rounded</item>
+        <item name="android:textSize">@dimen/btn_calc_text_size</item>
+        <item name="android:textColor">@color/cal_btn_func_text</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="CalcButtonSci" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:background">@drawable/btn_calc_func_rounded</item>
+        <item name="android:textSize">@dimen/btn_sci_text_size</item>
+        <item name="android:textColor">@color/cal_btn_func_text</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+</resources>

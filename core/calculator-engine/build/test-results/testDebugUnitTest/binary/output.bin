@@ -1,0 +1,77 @@
+/4QReference eval error for 'pi!': Factorial only defined for non-negative integers
+/4ÅReference eval error for '(floor(52.41803462178041)%(-22.68662512813026!*pi))': Factorial only defined for non-negative integers
+/4aReference eval error for '(ceil(27)-log10(-47))!': log10 domain error: argument must be positive
+/4\Reference eval error for 'sqrt((pi!^52))': Factorial only defined for non-negative integers
+/4PReference eval error for '(sqrt(floor(-80))%e)': Square root of negative number
+/4ZReference eval error for 'ln(exp(-6))!': Factorial only defined for non-negative integers
+/4fReference eval error for '(71.07229819632656!-e%)!': Factorial only defined for non-negative integers
+/4cReference eval error for '-67.97384914236382!!%': Factorial only defined for non-negative integers
+/4TReference eval error for '-91%%!': Factorial only defined for non-negative integers
+/4gReference eval error for '(e!^-22.44076839235953!%)': Factorial only defined for non-negative integers
+/4^Reference eval error for '((68%-pi!)/pi!!)': Factorial only defined for non-negative integers
+/4aReference eval error for '62.838063815723416!': Factorial only defined for non-negative integers
+/4lReference eval error for '(pi*(-56.54360499572575+-46)!)': Factorial only defined for non-negative integers
+/4TReference eval error for 'log(-100)!%': log domain error: argument must be positive
+/4jReference eval error for 'abs(cos(7.478785545033318))!': Factorial only defined for non-negative integers
+/4ZReference eval error for 'exp(sqrt(-38.48627822321271))!': Square root of negative number
+/4RReference eval error for '92%!': Factorial only defined for non-negative integers
+/4aReference eval error for '24.57088403259627%!': Factorial only defined for non-negative integers
+/4]Reference eval error for 'ceil((-10%61)!)': Factorial only defined for non-negative integers
+/4QReference eval error for 'pi!': Factorial only defined for non-negative integers
+/4[Reference eval error for 'sqrt((e!*e!))': Factorial only defined for non-negative integers
+/4PReference eval error for 'e!': Factorial only defined for non-negative integers
+/4xReference eval error for 'ln((-36.15397671279634!*62.1616889538372))': Factorial only defined for non-negative integers
+/4gReference eval error for '(pi!*-62.14904627601421)!': Factorial only defined for non-negative integers
+/4iReference eval error for '((-56!*pi!)^(floor(e)/-75))': Factorial only defined for non-negative integers
+/4[Reference eval error for '(ln(e)!*86%!)': Factorial only defined for non-negative integers
+/4TReference eval error for '-82%%!': Factorial only defined for non-negative integers
+/4QReference eval error for 'pi!': Factorial only defined for non-negative integers
+/4lReference eval error for '(pi^cbrt(-47.19787002419431)!)': Factorial only defined for non-negative integers
+/4kReference eval error for 'sin((-11.148471267178039*6))!': Factorial only defined for non-negative integers
+/4fReference eval error for 'sqrt(78.26634145951482!)': Factorial only defined for non-negative integers
+/4PReference eval error for 'e!': Factorial only defined for non-negative integers
+/4`Reference eval error for '96.34013908615768!': Factorial only defined for non-negative integers
+/4VReference eval error for 'cos(pi)!': Factorial only defined for non-negative integers
+/4eReference eval error for 'log(39.09705814857716)!': Factorial only defined for non-negative integers
+/4XReference eval error for 'floor(e!)!': Factorial only defined for non-negative integers
+/4jReference eval error for '(abs(e)!^-8.38491574017371%)': Factorial only defined for non-negative integers
+/4gReference eval error for '(-46.361873121184736%e)%!': Factorial only defined for non-negative integers
+/4äReference eval error for '((17.902231837677988*69.76352166501721!)-64.1269977424775%%)': Factorial only defined for non-negative integers
+/4fReference eval error for 'abs(92.24067772578474!!)': Factorial only defined for non-negative integers
+/4kReference eval error for 'sqrt(abs(52.19373557568224))!': Factorial only defined for non-negative integers
+/4XReference eval error for 'tan(-73%!)': Factorial only defined for non-negative integers
+/4öReference eval error for '(((-7.256286198158406^97)^(-24%-24.32811189736168))/(pi-97.96294152643455)!)': Factorial only defined for non-negative integers
+/4fReference eval error for 'exp(-6.357707544629207!)': Factorial only defined for non-negative integers
+/4_Reference eval error for '((-82^-93)!-93%!)': Factorial only defined for non-negative integers
+/4WReference eval error for 'log(pi)%!': Factorial only defined for non-negative integers
+/4SReference eval error for '36%%!': Factorial only defined for non-negative integers
+/4PReference eval error for 'e!': Factorial only defined for non-negative integers
+/4^Reference eval error for 'ln(((e%89)^pi!))': Factorial only defined for non-negative integers
+/4vReference eval error for '(9.541686983834154-13.514228987419145)!%': Factorial only defined for non-negative integers
+/4rReference eval error for '(floor(pi)%*(57.57367563236514/pi)!)': Factorial only defined for non-negative integers
+/4VReference eval error for 'sin(30)!': Factorial only defined for non-negative integers
+/4SReference eval error for 'pi!%!': Factorial only defined for non-negative integers
+/4`Reference eval error for '20.34066278706139!': Factorial only defined for non-negative integers
+/4YReference eval error for 'log10(cos(e)%)': log10 domain error: argument must be positive
+/4WReference eval error for '(e!%59!)!': Factorial only defined for non-negative integers
+/4PReference eval error for 'e!': Factorial only defined for non-negative integers
+/4QReference eval error for 'pi!': Factorial only defined for non-negative integers
+/4WReference eval error for '(-3+pi!!)': Factorial only defined for non-negative integers
+/4QReference eval error for 'pi!': Factorial only defined for non-negative integers
+/4aReference eval error for '((60/-3)/abs(-92))!': Factorial only defined for non-negative integers
+/4SReference eval error for '42%!%': Factorial only defined for non-negative integers
+/4xReference eval error for '(((-97-48.12297579133539)*e%)*(e!*(e/-6)))': Factorial only defined for non-negative integers
+/4tReference eval error for '((-35.049927996132624!%(e+-96))--87!%)': Factorial only defined for non-negative integers
+/4qReference eval error for '(abs(pi!)/abs(-28.13178861203663)!)': Factorial only defined for non-negative integers
+/4lReference eval error for 'cbrt(exp(-82.70028152572873))!': Factorial only defined for non-negative integers
+/4kReference eval error for '(cbrt(pi!)+91.2370579636289!)': Factorial only defined for non-negative integers
+/4pReference eval error for '(-43.13938664134589!!-round(-16)!)': Factorial only defined for non-negative integers
+/4èReference eval error for '((-71.47278101639007!*47.0043658921706)^(e/(85*79.080134780094)))': Factorial only defined for non-negative integers
+/4hReference eval error for '(57!%-47.098252868073786)!': Factorial only defined for non-negative integers
+/4VReference eval error for 'cos(e!!)': Factorial only defined for non-negative integers
+/4|Reference eval error for '(96.20737605396772!*abs(-44.334535086243456))!': Factorial only defined for non-negative integers
+/4gReference eval error for '(-2!--21.17605577769197!)': Factorial only defined for non-negative integers
+/4WReference eval error for '(pi*pi!!)': Factorial only defined for non-negative integers
+/4dReference eval error for 'ln((pi/-33.84582229813135))!': ln domain error: argument must be positive
+/4eReference eval error for 'sin(55.91038680279405!)': Factorial only defined for non-negative integers
+/4%Property test: 124 passed, 76 errors

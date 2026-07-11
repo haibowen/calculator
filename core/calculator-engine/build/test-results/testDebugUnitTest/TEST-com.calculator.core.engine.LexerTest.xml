@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.calculator.core.engine.LexerTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-07-11T06:42:01" hostname="hyplo" time="0.007">
+  <properties/>
+  <testcase name="tokenize constants()" classname="com.calculator.core.engine.LexerTest" time="0.0"/>
+  <testcase name="tokenize functions()" classname="com.calculator.core.engine.LexerTest" time="0.0"/>
+  <testcase name="tokenize factorial and percent()" classname="com.calculator.core.engine.LexerTest" time="0.0"/>
+  <testcase name="tokenize decimals()" classname="com.calculator.core.engine.LexerTest" time="0.0"/>
+  <testcase name="tokenize integers()" classname="com.calculator.core.engine.LexerTest" time="0.0"/>
+  <testcase name="tokenize parentheses()" classname="com.calculator.core.engine.LexerTest" time="0.001"/>
+  <testcase name="tokenize all trigonometric functions()" classname="com.calculator.core.engine.LexerTest" time="0.0"/>
+  <testcase name="tokenize throws on unknown operator()" classname="com.calculator.core.engine.LexerTest" time="0.001"/>
+  <testcase name="tokenize basic operators()" classname="com.calculator.core.engine.LexerTest" time="0.001"/>
+  <testcase name="tokenize nested functions()" classname="com.calculator.core.engine.LexerTest" time="0.0"/>
+  <testcase name="tokenize chained operators()" classname="com.calculator.core.engine.LexerTest" time="0.0"/>
+  <testcase name="tokenize throws on unknown identifier()" classname="com.calculator.core.engine.LexerTest" time="0.001"/>
+  <testcase name="tokenize whitespace handling()" classname="com.calculator.core.engine.LexerTest" time="0.0"/>
+  <testcase name="tokenize negative numbers()" classname="com.calculator.core.engine.LexerTest" time="0.0"/>
+  <testcase name="tokenize complex expressions()" classname="com.calculator.core.engine.LexerTest" time="0.001"/>
+  <testcase name="tokenize scientific notation()" classname="com.calculator.core.engine.LexerTest" time="0.0"/>
+  <testcase name="tokenize power function()" classname="com.calculator.core.engine.LexerTest" time="0.0"/>
+  <testcase name="tokenize all logarithmic functions()" classname="com.calculator.core.engine.LexerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

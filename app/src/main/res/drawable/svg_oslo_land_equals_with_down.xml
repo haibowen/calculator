@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="42.0dp" android:width="66.0dp" android:viewportWidth="66.0" android:viewportHeight="42.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/event_down_fold_button_img_equals" android:pathData="M21,0L45,0A21,21 0,0 1,66 21L66,21A21,21 0,0 1,45 42L21,42A21,21 0,0 1,0 21L0,21A21,21 0,0 1,21 0z" />
+    <path android:fillColor="@color/event_down" android:pathData="M21,0L45,0A21,21 0,0 1,66 21L66,21A21,21 0,0 1,45 42L21,42A21,21 0,0 1,0 21L0,21A21,21 0,0 1,21 0z" />
+    <path android:fillColor="#00000000" android:pathData="M25.8633,18.7285H40.1336" android:strokeColor="#ffffff" android:strokeWidth="1.48649" />
+    <path android:fillColor="#00000000" android:pathData="M25.8633,24.0801H40.1336" android:strokeColor="#ffffff" android:strokeWidth="1.48649" />
+</vector>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cal_display_bg">
+
+    <include
+        android:id="@+id/panel_history"
+        layout="@layout/panel_history"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/display_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/display_padding"
+        android:gravity="bottom">
+
+        <TextView
+            android:id="@+id/tv_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF3B30"
+            android:textSize="14sp"
+            android:visibility="gone"
+            tools:text="表达式错误" />
+
+        <TextView
+            android:id="@+id/tv_formula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/display_formula_size"
+            android:textColor="@color/cal_formula_text"
+            android:gravity="start|bottom"
+            android:singleLine="true"
+            android:ellipsize="start"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/display_result_size"
+            android:textColor="@color/cal_result_text"
+            android:textStyle="bold"
+            android:gravity="end|bottom"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="0" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cal_divider" />
+
+    <include
+        android:id="@+id/panel_scientific"
+        layout="@layout/panel_grid_scientific"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <include
+            android:id="@+id/panel_basic"
+            layout="@layout/panel_grid_basic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/cal_display_bg">
+
+        <TextView
+            android:id="@+id/btn_toggle_sci"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/sci_label"
+            android:textSize="14sp"
+            android:textColor="@color/cal_accent"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground" />
+
+        <TextView
+            android:id="@+id/btn_toggle_history"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/history_label"
+            android:textSize="14sp"
+            android:textColor="@color/cal_accent"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground" />
+    </LinearLayout>
+
+</LinearLayout>

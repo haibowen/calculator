@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <com.example.myapplication.tools.image.ColorWheelView
+        android:id="@+id/color_wheel"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <View
+        android:id="@+id/color_preview"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tv_hex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="HEX: #000000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_rgb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RGB: (0,0,0)"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_cmyk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CMYK: -"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="搜索中国传统色" />
+
+    <ListView
+        android:id="@+id/lv_colors"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

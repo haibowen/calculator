@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/calculator_bg" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:splitMotionEvents="false" android:layoutDirection="ltr">
+        <ViewStub android:id="@id/easter_egg_layout_stub" android:visibility="gone" android:layout="@layout/easter_egg_layout_flatbed" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/drawer_layout" app:layout_constraintTop_toTopOf="parent" />
+        <com.calculator.advanced.CalculatorFrameLayout android:id="@id/calculator_frame" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fold_calculator_display_margin_bottom" app:layout_constraintBottom_toTopOf="@id/drawer_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+            <com.calculator.ui.widget.google.CalculatorDisplay android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/original_display" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr" android:paddingStart="@dimen/dimens_16dp" android:paddingEnd="@dimen/fold_calculator_display_padding_end">
+                <com.calculator.ui.widget.google.CalculatorScrollView android:id="@id/formula_container" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+                    <com.calculator.ui.widget.google.CalculatorFormula android:textColor="@color/display_formula_text_color" android:id="@id/formula" android:background="@color/formula_tint" android:layout_width="wrap_content" android:maxLines="1" android:forceDarkAllowed="false" style="@style/DisplayTextStyle.Formula.Unfold" />
+                </com.calculator.ui.widget.google.CalculatorScrollView>
+                <com.calculator.ui.widget.google.CalculatorResult android:textColor="@color/display_result_text_color" android:id="@id/result" android:layout_width="match_parent" android:layout_height="wrap_content" android:bufferType="spannable" android:singleLine="true" android:layout_below="@id/formula_container" style="@style/DisplayTextStyle.Result.Land.Unfold" />
+            </com.calculator.ui.widget.google.CalculatorDisplay>
+        </com.calculator.advanced.CalculatorFrameLayout>
+        <include layout="@layout/include_calculator_and_history_unfold" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

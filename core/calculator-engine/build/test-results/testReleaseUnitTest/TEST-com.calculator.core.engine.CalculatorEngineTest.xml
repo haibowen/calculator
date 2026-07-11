@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.calculator.core.engine.CalculatorEngineTest" tests="42" skipped="0" failures="0" errors="0" timestamp="2026-07-11T06:41:38" hostname="hyplo" time="0.049">
+  <properties/>
+  <testcase name="evaluate division()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="evaluate sqrt and cbrt()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="saveState and restoreState round trip()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.022"/>
+  <testcase name="inverse mode works in radian mode()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="evaluate percent()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="returns syntax error for empty input()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="memory operations work correctly()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="evaluate logarithmic functions()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="returns math error for invalid factorial()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="evaluate exponentiation()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="evaluate with parentheses()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="evaluate hyperbolic functions()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="evaluate inverse mode trigonometric functions()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="evaluate inverse mode hyperbolic functions()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="evaluate floor ceil round()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="evaluate subtraction()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="evaluate scientific notation()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="history tracks evaluations()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="clearHistory clears history()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="evaluate unary plus()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="evaluate unary minus()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="evaluate constants pi and e()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="evaluate deg or rad parity for trigonometric functions()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="history tracks errors()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="evaluate complex expression()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="returns math error for division by zero()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="evaluate trigonometric functions()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="saveState with default values()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="evaluate nested functions()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="evaluate exp and abs()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="evaluate simple addition()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="evaluate factorial()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="evaluate multiplication()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="evaluate deg and rad()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="returns math error for sqrt of negative()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="returns syntax error for invalid input()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="evaluate implicit multiplication()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="evaluate modulo()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="returns syntax error for unknown identifier()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="evaluate inverse trigonometric functions()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <testcase name="returns syntax error for unmatched parenthesis()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.001"/>
+  <testcase name="inverse mode inverse functions map back to normal()" classname="com.calculator.core.engine.CalculatorEngineTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

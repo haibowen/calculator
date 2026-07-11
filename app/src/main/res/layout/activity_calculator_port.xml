@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/calculator_bg" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:splitMotionEvents="false" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/easter_egg_layout_stub" android:visibility="gone" android:layout="@layout/easter_egg_layout_port" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/drawer_layout" app:layout_constraintTop_toTopOf="parent" />
+    <com.calculator.advanced.CalculatorFrameLayout android:id="@id/calculator_frame" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimens_32dp" android:translationZ="@dimen/dimens_20dp" android:outlineSpotShadowColor="@color/color_transparent" android:outlineAmbientShadowColor="@color/color_transparent" app:layout_constraintBottom_toTopOf="@id/drawer_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <com.calculator.ui.widget.google.CalculatorDisplay android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/original_display" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="@dimen/dimens_16dp">
+            <com.calculator.ui.widget.google.CalculatorScrollView android:id="@id/formula_container" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:layout_marginEnd="@dimen/result_padding_end">
+                <com.calculator.ui.widget.google.CalculatorFormula android:id="@id/formula" android:background="@color/formula_tint" android:layout_width="wrap_content" android:layout_height="match_parent" android:forceDarkAllowed="false" style="@style/DisplayTextStyle.Formula" />
+            </com.calculator.ui.widget.google.CalculatorScrollView>
+            <com.calculator.ui.widget.google.CalculatorResult android:id="@id/result" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/formula_container" style="@style/DisplayTextStyle.Result" />
+        </com.calculator.ui.widget.google.CalculatorDisplay>
+    </com.calculator.advanced.CalculatorFrameLayout>
+    <include layout="@layout/include_calculator_and_history" />
+    <View android:id="@id/transformation_view" android:background="@drawable/transformation_view_bg" android:layout_width="match_parent" android:layout_height="@dimen/dimens_15dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/drawer_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

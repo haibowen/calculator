@@ -1,0 +1,638 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="app_name_short">Calc</string>
+    <string name="app_not_respond">Calculator not responding</string>
+
+    <!-- Calculator operators -->
+    <string name="op_add">+</string>
+    <string name="op_sub">−</string>
+    <string name="op_mul">×</string>
+    <string name="op_div">÷</string>
+    <string name="op_pow">^</string>
+    <string name="op_sqr">x²</string>
+    <string name="op_sqrt">√</string>
+    <string name="op_fact">!</string>
+    <string name="op_pct">%</string>
+    <string name="eq">=</string>
+    <string name="inv">inv</string>
+    <string name="lparen">(</string>
+    <string name="rparen">)</string>
+    <string name="dec_point">.</string>
+    <string name="squared">²</string>
+    <string name="const_e">e</string>
+    <string name="const_pi">π</string>
+    <string name="fun_sin">sin</string>
+    <string name="fun_cos">cos</string>
+    <string name="fun_tan">tan</string>
+    <string name="fun_arcsin">sin⁻¹</string>
+    <string name="fun_arccos">cos⁻¹</string>
+    <string name="fun_arctan">tan⁻¹</string>
+    <string name="fun_log">log</string>
+    <string name="fun_ln">ln</string>
+    <string name="fun_exp">eˣ</string>
+    <string name="fun_10pow">10^</string>
+    <string name="fun_sin_for_board">" sin "</string>
+    <string name="fun_cos_for_board">" cos "</string>
+    <string name="fun_tan_for_board">" tan "</string>
+
+    <!-- Calculator mode names -->
+    <string name="simple_calculator">Basic</string>
+    <string name="science_calculator">Scientific</string>
+
+    <!-- Calculator descriptions -->
+    <string name="desc_digit_0">0</string>
+    <string name="desc_digit_1">1</string>
+    <string name="desc_digit_2">2</string>
+    <string name="desc_digit_3">3</string>
+    <string name="desc_digit_4">4</string>
+    <string name="desc_digit_5">5</string>
+    <string name="desc_digit_6">6</string>
+    <string name="desc_digit_7">7</string>
+    <string name="desc_digit_8">8</string>
+    <string name="desc_digit_9">9</string>
+    <string name="desc_op_add">Add</string>
+    <string name="desc_op_sub">Subtract</string>
+    <string name="desc_op_mul">Multiply</string>
+    <string name="desc_op_div">Divide</string>
+    <string name="desc_op_div_voice">Divided by</string>
+    <string name="desc_op_pow">Exponential</string>
+    <string name="desc_op_sqr">Square</string>
+    <string name="desc_op_sqrt">Square Root</string>
+    <string name="desc_op_fact">Factorial</string>
+    <string name="desc_op_pct">Percentage Sign</string>
+    <string name="desc_eq">Equals</string>
+    <string name="desc_del">Backspace</string>
+    <string name="desc_clr">Clear</string>
+    <string name="desc_const_pi">PI</string>
+    <string name="desc_const_e">Natural Power</string>
+    <string name="desc_dec_point">Decimal</string>
+    <string name="desc_dec_point_2">Point</string>
+    <string name="desc_switch_deg">Switch to Degree</string>
+    <string name="desc_switch_rad">Switch to Radian</string>
+    <string name="desc_inv_off">Show Inverse Function</string>
+    <string name="desc_inv_on">Hide Inverse Function</string>
+    <string name="desc_lparen">Left Parenthesis</string>
+    <string name="desc_rparen">Right Parenthesis</string>
+    <string name="desc_temperature_sign">Above and Below Zero Temperature Switching</string>
+    <string name="desc_result">No result</string>
+    <string name="desc_formula">No formula</string>
+    <string name="desc_expand">Show more</string>
+    <string name="desc_close">Show less</string>
+    <string name="title_current_expression">Current Expression</string>
+
+    <!-- Calculator buttons and actions -->
+    <string name="delete">del</string>
+    <string name="clear_all_history_record">Delete all</string>
+    <string name="clear_history_dialog_title">Delete all history?</string>
+    <string name="clear_history_dialog_content_info">All history will be permanently deleted from this device. This action cannot be undone.</string>
+    <string name="clear_text_end_icon_content_description">Clear text</string>
+    <string name="cleared">Removed</string>
+    <string name="copy">Copy</string>
+    <string name="copy_toast_text">Text copied</string>
+    <string name="cut_toast_text">Text cut</string>
+    <string name="result_had_been_copy">Result copied to clipboard</string>
+    <string name="digit_0">0</string>
+    <string name="digit_00">00</string>
+    <string name="digit_1">1</string>
+    <string name="digit_2">2</string>
+    <string name="digit_3">3</string>
+    <string name="digit_4">4</string>
+    <string name="digit_5">5</string>
+    <string name="digit_6">6</string>
+    <string name="digit_7">7</string>
+    <string name="digit_8">8</string>
+    <string name="digit_9">9</string>
+    <string name="input_0">Enter, 0</string>
+    <string name="max_bit_input">Maximum digits (15) reached</string>
+    <string name="max_input_tip">Character limit reached</string>
+    <string name="number_length_exceeds_limit">Digit limit exceeded</string>
+    <string name="supports_2_point">The number can only have 2 decimal places</string>
+    <string name="supports_3_point">The number can only have 3 decimal places</string>
+    <string name="number_greater_than_0_and_than_equal_10">Enter a number between 0 and 10 (including 10)</string>
+    <string name="please_enter_a_number_less_than_100">Enter a number less than 100 (including 100)</string>
+    <string name="text_not_support_paste">Only numbers and mathematical symbols can be pasted</string>
+    <string name="error">Error</string>
+    <string name="error_a11y_label">Error: invalid</string>
+    <string name="error_aborted">Discontinued</string>
+    <string name="error_exception">Unknown error</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="error_nan">Not a number</string>
+    <string name="error_overflow">Infinite value?</string>
+    <string name="error_syntax">Expression error</string>
+    <string name="error_zero_divide">Cannot divide by 0</string>
+    <string name="timeout">Calculation timeout</string>
+    <string name="exceeding_maximum_value">Limit exceeded</string>
+    <string name="unit_base_infinite_loop">The result is an infinite decimal</string>
+
+    <!-- Memory functions -->
+    <string name="memory_add">M+</string>
+    <string name="memory_subtract">M−</string>
+    <string name="memory_recall">MR</string>
+    <string name="memory_store">MS</string>
+
+    <!-- Unit converter -->
+    <string name="convert">Unit converter</string>
+    <string name="length">Length</string>
+    <string name="length_convert">Length conversion</string>
+    <string name="length_src_default">m</string>
+    <string name="length_dst_default">mi</string>
+    <string name="weight">Weight</string>
+    <string name="weight_convert">Weight conversion</string>
+    <string name="weight_src_default">kg</string>
+    <string name="weight_dst_default">oz</string>
+    <string name="temperature">Temperature</string>
+    <string name="temperature_convert">Temperature conversion</string>
+    <string name="temperature_src_default">C</string>
+    <string name="temperature_dst_default">F</string>
+    <string name="volume">Volume</string>
+    <string name="volume_convert">Volume conversion</string>
+    <string name="volume_src_default">m3</string>
+    <string name="volume_dst_default">hl</string>
+    <string name="pressure">Pressure</string>
+    <string name="pressure_convert">Pressure conversion</string>
+    <string name="pressure_src_default">hPa</string>
+    <string name="pressure_dst_default">atm</string>
+    <string name="speed">Speed</string>
+    <string name="speed_convert">Speed conversion</string>
+    <string name="speed_src_default">m*s-1</string>
+    <string name="speed_dst_default">km*h-1</string>
+    <string name="power">Power</string>
+    <string name="power_convert">Power conversion</string>
+    <string name="power_src_default">w</string>
+    <string name="power_dst_default">kw</string>
+    <string name="choose_unit">Select unit</string>
+    <string name="choose_base">Choose number system</string>
+    <string name="unit_base">Number system conversion</string>
+    <string name="unit_base_two">Binary</string>
+    <string name="unit_base_eight">Octal</string>
+    <string name="unit_base_ten">Decimal</string>
+    <string name="unit_base_sixteen">Hexadecimal</string>
+    <string name="unit_base_sixteen_button_a">A</string>
+    <string name="unit_base_sixteen_button_a_talk">Cap A</string>
+    <string name="unit_base_sixteen_button_b">B</string>
+    <string name="unit_base_sixteen_button_b_talk">Cap B</string>
+    <string name="unit_base_sixteen_button_c">C</string>
+    <string name="unit_base_sixteen_button_c_talk">Cap C</string>
+    <string name="unit_base_sixteen_button_d">D</string>
+    <string name="unit_base_sixteen_button_d_talk">Cap D</string>
+    <string name="unit_base_sixteen_button_e">E</string>
+    <string name="unit_base_sixteen_button_e_talk">Cap E</string>
+    <string name="unit_base_sixteen_button_f">F</string>
+    <string name="unit_base_sixteen_button_f_talk">Cap F</string>
+    <string name="more_unit_base_title">Number system</string>
+
+    <!-- Currency converter -->
+    <string name="currency_exchange">Currency converter</string>
+    <string name="currency_info">Currency</string>
+    <string name="choose_currency">Select currency</string>
+    <string name="search_currency_hint">Search</string>
+    <string name="search_rate_hint">Search for a currency or country</string>
+    <string name="exchange_rate_button">Swap currencies</string>
+    <string name="exchange_rate_hint">Add the currency converter to your Home screen for easier access.</string>
+    <string name="exchange_rate_empty_anim_file_name">no_network_light.json</string>
+    <string name="data_source">Data source: </string>
+    <string name="data_provided_by">Data source: %s</string>
+    <string name="rate_update_tip_india_new">Last updated: %s</string>
+    <string name="click_to_get_latest_currency">Tap to get the latest exchange rates.</string>
+    <string name="gain_data_failed">Failed to obtain data. Please try again later.</string>
+    <string name="server_data_error">No server data has been updated</string>
+    <string name="server_data_off_line">This function has been discontinued due to service changes.</string>
+    <string name="service_error">Service error</string>
+
+    <!-- Mortgage calculator -->
+    <string name="mortgage">Mortgage</string>
+    <string name="mortgage_calculator">Mortgage calculator</string>
+    <string name="mortgage_convert">Mortgage conversion</string>
+    <string name="mortgage_list">Mortgage</string>
+    <string name="loan_amount">Loan amount</string>
+    <string name="loan_interest_rate">Interest rate</string>
+    <string name="loan_term">Term</string>
+    <string name="loan_years">Loan term</string>
+    <string name="loan_ratio">Loan-to-value ratio</string>
+    <string name="total_loans">Loan amount (%s)</string>
+    <string name="total_loan_amount">Loan amount</string>
+    <string name="total_loan_amount_sum">Total loan amount must be equal to the sum of HPF and commercial loans</string>
+    <string name="total_loan_cannot_0">Loan amount cannot be 0</string>
+    <string name="the_loan_amount_cannot_be_0">Loan amount can't be zero</string>
+    <string name="total_business_loans_new">Commercial loan amount (%s)</string>
+    <string name="total_provident_fund_loans_new">HPF loan amount (%s)</string>
+    <string name="provident_fund_loan">HPF loan</string>
+    <string name="provident_fund_loan_interest_rate">HPF loan interest rate</string>
+    <string name="provident_fund_loan_years">HPF loan term</string>
+    <string name="loans_shall_not_exceed_2_million">HPF loans can't exceed 2 million CNY</string>
+    <string name="first_home_base_interest_rate">First home (%s)</string>
+    <string name="second_home_base_interest_rate">Second home (%s)</string>
+    <string name="one_year_lpr">1-year LPR (%s%%)</string>
+    <string name="five_years_lpr">5-year LPR (%s%%)</string>
+    <string name="l_p_r">LPR</string>
+    <string name="l_p_r_market">"LPR (Loan Prime Rate): Since October 8, 2019, the pricing benchmark for interest rates on newly issued commercial housing loans has been switched from the benchmark lending rate (4.9%) to the LPR (Loan Prime Rate), and basis points have been added to the LPR to determine the final commercial lending rate.
+The LPR is divided into one-year and five-year terms (for loans with a tenure of one to five years, the bank can choose between them) and is quoted once a month on the 20th of each month (postponed on holidays). LPR details are available on the PBOC's website."</string>
+    <string name="interest_rate_standard">Interest rate standard</string>
+    <string name="interest_rate_not_updated">Interest rates not updated. Connect to a network and try again.</string>
+    <string name="interest_rate_not_refer">Interest rates not updated. Calculation results may be inaccurate.</string>
+    <string name="current_principal">Principal</string>
+    <string name="current_interest">Interest</string>
+    <string name="remaining_principal_amount">Ending balance</string>
+    <string name="remaining_in_this_period">Unpaid balance</string>
+    <string name="repayment_details_yuan">Repayment details (CNY)</string>
+    <string name="total_repayment_amount">Total repayments (%s)</string>
+    <string name="total_interest_amount">Total interest (%s)</string>
+    <string name="first_repayment_date">First repayment</string>
+    <string name="repayment_required_in_the_first_month">First repayment (%s)</string>
+    <string name="repayment_this_year_in">%s repayments</string>
+    <string name="repayment_of_housing_provident_fund">HPF</string>
+    <string name="principa_interest">Equal installments</string>
+    <string name="equal_principal">Equal principal</string>
+    <string name="commercial_loan_repayment">Commercial</string>
+    <string name="portfolio_loan">Portfolio loan</string>
+    <string name="press_the_total_price_of_the_house">Property value</string>
+    <string name="house_total_price_cannot_0">Property value cannot be 0</string>
+    <string name="total_price_of_the_house">Property value (%s)</string>
+    <string name="monthly_repayment_required">Monthly repayment (%s)</string>
+    <string name="custom_interest_rate">Custom rate</string>
+    <string name="custom_multiplier">Custom multiplier</string>
+    <string name="multiple_input">Enter actual to benchmark ratio (multiplier)</string>
+    <string name="times_rate">%s×</string>
+    <string name="one_point_zero_five">1.05× (%s)</string>
+    <string name="one_point_one">1.1× (%s)</string>
+    <string name="one_point_one_two">1.2× (%s)</string>
+    <string name="one_point_one_two_five">1.25× (%s)</string>
+    <string name="one_point_one_three">1.3× (%s)</string>
+    <string name="one_point_one_three_five">1.35× (%s)</string>
+    <string name="one_point_one_four">1.4× (%s)</string>
+    <string name="one_point_one_five">1.15× (%s)</string>
+    <string name="seven_fold_several">30%% off (%s)</string>
+    <string name="eight_fold_several">20%% off (%s)</string>
+    <string name="eight_three_fold_several">17%% off (%s)</string>
+    <string name="eight_five_fold_several">15%% off (%s)</string>
+    <string name="nine_five_old_several">5%% off (%s)</string>
+    <string name="nine_several">10%% off (%s)</string>
+    <string name="eight_eight_fold_several">12%% off (%s)</string>
+    <string name="percents">%s%%</string>
+    <string name="the_years_month">%1$s (%2$s)</string>
+    <string name="months">%s month</string>
+    <string name="months_two">%s months</string>
+    <string name="year_many">%s year</string>
+    <string name="years_two">%s years</string>
+    <string name="start_the_calculation">Calculate</string>
+
+    <!-- Settings -->
+    <string name="setting">Settings</string>
+
+    <!-- History -->
+    <string name="history_records">History</string>
+    <string name="history_records_no_hint">No history</string>
+    <string name="delete_history">Clear</string>
+
+    <!-- General UI -->
+    <string name="ok">OK</string>
+    <string name="sure">OK</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_confirm">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="cancel">Cancel</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="close">Close</string>
+    <string name="toolbar_close">Close</string>
+    <string name="toolbar_cancel">Cancel</string>
+    <string name="toolbar_done">Done</string>
+    <string name="toolbar_select_all">Select all</string>
+    <string name="toolbar_deselect_all">Deselect all</string>
+    <string name="expand_button_title">Advanced</string>
+    <string name="no_result">No results</string>
+    <string name="no_network_connect">No network connection</string>
+    <string name="no_network_connect_str">No Network Connection</string>
+    <string name="no_network_remind">No network connection. Try again later.</string>
+    <string name="check_network_setting">Check your network settings.</string>
+    <string name="check_network_settings">Check your network settings.</string>
+    <string name="mobile_and_wlan_network_not_connect_str">Turn on "Mobile Data" or use Wi-Fi to access</string>
+    <string name="refreshing">Updating...</string>
+    <string name="on_refreshing">Refreshing…</string>
+    <string name="refresh_finish_label_fail">Update failed</string>
+    <string name="download_failed">Failed to download</string>
+    <string name="not_set">Not set</string>
+    <string name="unknown_date">Unknown date</string>
+    <string name="error">Error</string>
+    <string name="feedback">Help &amp; feedback</string>
+    <string name="feedback_app_name">Help and feedback</string>
+    <string name="open_source_license">Open source licenses</string>
+    <string name="privacy">Privacy</string>
+    <string name="privacy_policy">Privacy Notice</string>
+    <string name="privacy_policy_dialog_title">Allow network access</string>
+    <string name="privacy_policy_dialog_content_new1">"Calculator" needs to access the network to provide live currency exchange rates.</string>
+    <string name="privacy_policy_dialog_negative_button">Disagree</string>
+    <string name="privacy_policy_dialog_positive_button">Agree</string>
+    <string name="user_privacy_policy_declare_dialog_content">"Calculator" is an app that lets you perform basic calculations, scientific calculations, and currency conversions. This app needs to connect to the internet to retrieve real-time exchange rates. This permission is used only when you use the currency conversion function. To better collect feedback and improve our service and your experience, this app needs to read your media data, including photos, videos, and audio files. This will enable us to better understand your questions.</string>
+    <string name="user_network_remind_info">Allow "Help &amp; feedback" to access the network during use?</string>
+    <string name="dialog_permission_title">Permission required</string>
+    <string name="dialog_permission_internet">"%1$s" needs to connect to the internet to provide you with help and feedback services.</string>
+    <string name="dialog_permission_image">"%1$s" needs to access your photos to allow you to submit relevant feedback.</string>
+    <string name="dialog_permission_internet_and_image">"%1$s" needs to connect to the internet to provide help and feedback services and access your photos to allow you to submit relevant feedback.</string>
+    <string name="provide_service">Practical calculation and conversion</string>
+    <string name="welcome_use">Welcome to</string>
+
+    <!-- Months -->
+    <string name="month">Month</string>
+    <string name="month_long">Month</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="month_january">January</string>
+    <string name="month_february">February</string>
+    <string name="month_march">March</string>
+    <string name="month_april">April</string>
+    <string name="month_may">May</string>
+    <string name="month_june">June</string>
+    <string name="month_july">July</string>
+    <string name="month_august">August</string>
+    <string name="month_september">September</string>
+    <string name="month_october">October</string>
+    <string name="month_november">November</string>
+    <string name="month_december">December</string>
+
+    <!-- Time picker -->
+    <string name="time_picker">Time Pickers</string>
+    <string name="picker_talkback_tip">Time picker. Scroll up or down to select the time.</string>
+    <string name="morning">AM</string>
+
+    <!-- Number pad -->
+    <string name="def">DEF</string>
+    <string name="ghi">GHI</string>
+    <string name="jkl">JKL</string>
+    <string name="mno">MNO</string>
+    <string name="pqrs">PQRS</string>
+    <string name="tuv">TUV</string>
+    <string name="wxyz">WXYZ</string>
+    <string name="star_character">*</string>
+    <string name="well_character">#</string>
+    <string name="minus_content">minus</string>
+    <string name="plus_content">plus</string>
+
+    <!-- Material Components strings -->
+    <string name="support_options">true</string>
+    <string name="support_abc_searchview_description_clear">Clear query</string>
+    <string name="support_abc_searchview_description_search">Search</string>
+    <string name="support_abc_searchview_description_submit">Submit query</string>
+    <string name="support_abc_searchview_description_voice">Voice search</string>
+    <string name="support_abc_toolbar_collapse_description">Collapse</string>
+    <string name="search_menu_title">Search</string>
+    <string name="searchview_clear_text_content_description">Clear text</string>
+    <string name="searchview_navigation_content_description">Back</string>
+    <string name="searchbar_scrolling_view_behavior">com.google.android.material.search.SearchBar$ScrollingViewBehavior</string>
+    <string name="fab_transformation_scrim_behavior">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="hide_bottom_view_on_scroll_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="side_sheet_behavior">com.google.android.material.sidesheet.SideSheetBehavior</string>
+    <string name="side_sheet_accessibility_pane_title">Side Sheet</string>
+
+    <!-- Character counter -->
+    <string name="character_counter_pattern">%1$d/%2$d</string>
+    <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
+
+    <!-- Accessibility -->
+    <string name="item_view_role_description">Tab</string>
+    <string name="indicator_content_description">Image carousel indicator</string>
+    <string name="indicator_content_end">Page indicator. Swipe left or right with 2 fingers to switch between pages.</string>
+    <string name="red_dot_description">New notifications</string>
+    <string name="red_dot_more">···</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+
+    <!-- Progress indicators -->
+    <string name="loading_button_dots">...</string>
+    <string name="fb_start_loading">Loading…</string>
+    <string name="switch_loading">Loading</string>
+    <string name="switch_on">On</string>
+    <string name="switch_off">Off</string>
+
+    <!-- Bottom sheet -->
+    <string name="mtrl_picker_cancel">Cancel</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_save">Save</string>
+    <string name="mtrl_picker_date_header_title">Select Date</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_unselected">Selected date</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_today_description">Today %1$s</string>
+    <string name="mtrl_picker_announce_current_selection">Current selection: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">none</string>
+    <string name="mtrl_picker_announce_current_range_selection">Start date selection: %1$s – End date selection: %2$s</string>
+    <string name="mtrl_picker_range_header_title">Select Range</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – End date</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Start date – %1$s</string>
+    <string name="mtrl_picker_range_header_unselected">Start date – End date</string>
+    <string name="mtrl_picker_start_date_description">Start date %1$s</string>
+    <string name="mtrl_picker_end_date_description">End date %1$s</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Navigate to current year %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigate to year %1$d</string>
+    <string name="mtrl_picker_out_of_range">Out of range: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Invalid format.</string>
+    <string name="mtrl_picker_invalid_format_example">Example: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Use: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Invalid range.</string>
+    <string name="mtrl_picker_text_input_date_hint">Date</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Start date</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">End date</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tap to switch to Calendar view</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tap to switch to year view</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Switch to calendar input mode</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Switch to text input mode</string>
+    <string name="mtrl_picker_a11y_next_month">Change to next month</string>
+    <string name="mtrl_picker_a11y_prev_month">Change to previous month</string>
+
+    <!-- Time picker -->
+    <string name="material_timepicker_select_time">Select time</string>
+    <string name="material_timepicker_hour">Hour</string>
+    <string name="material_timepicker_minute">Minute</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_clock_display_divider">:</string>
+    <string name="material_clock_toggle_content_description">Select AM or PM</string>
+    <string name="material_hour_selection">Select hour</string>
+    <string name="material_minute_selection">Select minutes</string>
+    <string name="material_hour_suffix">"%1$s o'clock"</string>
+    <string name="material_hour_24h_suffix">%1$s hours</string>
+    <string name="material_minute_suffix">%1$s minutes</string>
+    <string name="material_timepicker_clock_mode_description">Switch to clock mode for the time input.</string>
+    <string name="material_timepicker_text_input_mode_description">Switch to text input mode for the time input.</string>
+    <string name="mtrl_timepicker_cancel">Cancel</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+
+    <!-- Switch -->
+    <string name="mtrl_switch_track_path">M0,16 A16,16 0 0,1 16,0 H36 A16,16 0 0,1 36,32 H16 A16,16 0 0,1 0,16</string>
+    <string name="mtrl_switch_track_decoration_path">M1,16 A15,15 0 0,1 16,1 H36 A15,15 0 0,1 36,31 H16 A15,15 0 0,1 1,16</string>
+    <string name="mtrl_switch_thumb_path_name">circle</string>
+    <string name="mtrl_switch_thumb_group_name">circle_group</string>
+    <string name="mtrl_switch_thumb_path_unchecked">M8,16 A8,8 0 0,1 16,8 H16 A8,8 0 0,1 16,24 H16 A8,8 0 0,1 8,16</string>
+    <string name="mtrl_switch_thumb_path_checked">M4,16 A12,12 0 0,1 16,4 H16 A12,12 0 0,1 16,28 H16 A12,12 0 0,1 4,16</string>
+    <string name="mtrl_switch_thumb_path_pressed">M2,16 A14,14 0 0,1 16,2 H16 A14,14 0 0,1 16,30 H16 A14,14 0 0,1 2,16</string>
+    <string name="mtrl_switch_thumb_path_morphing">M0,16 A11,11 0 0,1 11,5 H21 A11,11 0 0,1 21,27 H11 A11,11 0 0,1 0,16</string>
+    <string name="mtrl_switch_state_description_checked">Checked</string>
+    <string name="mtrl_switch_state_description_unchecked">Not checked</string>
+    <string name="mtrl_switch_state_description_indeterminate">Partially checked</string>
+
+    <!-- Checkbox -->
+    <string name="mtrl_checkbox_button_path_name">button path</string>
+    <string name="mtrl_checkbox_button_path_unchecked">M23,7H9C7.9,7,7,7.9,7,9v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V9C25,7.9,24.1,7,23,7z M23,23H9V9h14V23z</string>
+    <string name="mtrl_checkbox_button_path_checked">M23,7H9C7.9,7,7,7.9,7,9v14c0,1.1,0.9,2,2,2h14c1.1,0,2-0.9,2-2V9C25,7.9,24.1,7,23,7z</string>
+    <string name="mtrl_checkbox_button_icon_path_name">icon path</string>
+    <string name="mtrl_checkbox_button_icon_path_group_name">icon</string>
+    <string name="mtrl_checkbox_button_icon_path_unchecked"></string>
+    <string name="mtrl_checkbox_button_icon_path_checked">M14,18.2 11.4,15.6 10,17 14,21 22,13 20.6,11.6z</string>
+    <string name="mtrl_checkbox_button_icon_path_indeterminate">M13.4,15 11,15 11,17 13.4,17 21,17 21,15z</string>
+    <string name="mtrl_checkbox_state_description_checked">Checked</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Not checked</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Partially checked</string>
+
+    <!-- Chip -->
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+
+    <!-- Badge -->
+    <string name="mtrl_badge_numberless_content_description">New notification</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">More than %1$d new notifications</string>
+    <string name="mtrl_exceed_max_badge_number_suffix">%1$d%2$s</string>
+    <string name="m3_exceed_max_badge_text_suffix">%1$s%2$s</string>
+
+    <!-- Slider -->
+    <string name="material_slider_range_start">Range start</string>
+    <string name="material_slider_range_end">Range end</string>
+    <string name="material_slider_value">Value</string>
+
+    <!-- Motion easing -->
+    <string name="material_motion_easing_standard">cubic-bezier(0.4, 0.0, 0.2, 1.0)</string>
+    <string name="material_motion_easing_accelerated">cubic-bezier(0.4, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_decelerated">cubic-bezier(0.0, 0.0, 0.2, 1.0)</string>
+    <string name="material_motion_easing_linear">cubic-bezier(0.0, 0.0, 1.0, 1.0)</string>
+    <string name="material_motion_easing_emphasized">path(M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1)</string>
+    <string name="m3_sys_motion_easing_standard">cubic-bezier(0.2, 0, 0, 1)</string>
+    <string name="m3_sys_motion_easing_standard_accelerate">cubic-bezier(0.3, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_standard_decelerate">cubic-bezier(0, 0, 0, 1)</string>
+    <string name="m3_sys_motion_easing_emphasized">cubic-bezier(0.3, 0, 0.8, 0.2)</string>
+    <string name="m3_sys_motion_easing_emphasized_accelerate">cubic-bezier(0.3, 0, 0.8, 0.2)</string>
+    <string name="m3_sys_motion_easing_emphasized_decelerate">cubic-bezier(0.1, 0.7, 0.1, 1)</string>
+    <string name="m3_sys_motion_easing_legacy">cubic-bezier(0.4, 0, 0.2, 1)</string>
+    <string name="m3_sys_motion_easing_legacy_accelerate">cubic-bezier(0.4, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_legacy_decelerate">cubic-bezier(0, 0, 0.2, 1)</string>
+    <string name="m3_sys_motion_easing_linear">cubic-bezier(0, 0, 1, 1)</string>
+    <string name="m3_sys_motion_easing_emphasized_path_data">M 0,0 C 0.05, 0, 0.133333, 0.06, 0.166666, 0.4 C 0.208333, 0.82, 0.25, 1, 1, 1</string>
+
+    <!-- Typography -->
+    <string name="m3_ref_typeface_plain_regular">sans-serif</string>
+    <string name="m3_ref_typeface_plain_medium">sans-serif-medium</string>
+    <string name="m3_ref_typeface_brand_regular">sans-serif</string>
+    <string name="m3_ref_typeface_brand_medium">sans-serif-medium</string>
+
+    <!-- Password visibility -->
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+
+    <!-- Fast scroller -->
+    <string name="fast_scroller_dots">...</string>
+
+    <!-- Colors and sizes -->
+    <string name="foregroundSize">foregroundSize</string>
+
+    <!-- Data sizes -->
+    <string name="kiloByteSpeed"> KB/s</string>
+    <string name="kilobyteShort"> KB</string>
+    <string name="megaByteSpeed"> MB/s</string>
+    <string name="megabyteShort"> MB</string>
+    <string name="gigaByteSpeed"> GB/s</string>
+    <string name="gigabyteShort"> GB</string>
+    <string name="teraByteSpeed"> TB/s</string>
+    <string name="terabyteShort"> TB</string>
+    <string name="petaByteSpeed"> PB/s</string>
+    <string name="petabyteShort"> PB</string>
+
+    <!-- Download progress -->
+    <string name="more_time_download"> k</string>
+    <string name="most_time_download"> m</string>
+
+    <!-- Volume warning -->
+    <string name="volume">Volume</string>
+
+    <!-- Card strings -->
+    <string name="card_first_login_hint">Tap to agree to the Statement of Use</string>
+    <string name="card_network_hint">No internet connection</string>
+    <string name="card_return_http">Try again</string>
+    <string name="card_currency_error">Server error</string>
+    <string name="choose_panel_empty_anim_file_name">no_search_results_light.json</string>
+    <string name="close_calculator">Close calculator</string>
+    <string name="close_history">Close history</string>
+    <string name="close_transparency">Hide transparency slider</string>
+
+    <!-- Summary collapsed preference list -->
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+
+    <!-- Preference copied -->
+    <string name="preference_copied">"%1$s" copied to clipboard.</string>
+
+    <!-- App update (SAU) -->
+    <string name="sau_dialog_description_head">Update Logs:</string>
+    <string name="sau_dialog_download_install">Download and install</string>
+    <string name="sau_dialog_downloaded_prompt">The upgrade package was downloaded without consuming cellular data. Install it now.</string>
+    <string name="sau_dialog_install_later">Later</string>
+    <string name="sau_dialog_install_now">Install</string>
+    <string name="sau_dialog_mobile_propmt">"You're using the cellular network. App updates will consume cellular data."</string>
+    <string name="sau_dialog_new_version">New Version Detected</string>
+    <string name="sau_dialog_size">Size:</string>
+    <string name="sau_dialog_upgrade_exit">Exit</string>
+    <string name="sau_dialog_upgrade_installing">Installing…</string>
+    <string name="sau_dialog_upgrade_later">Cancel</string>
+    <string name="sau_dialog_upgrade_now">Update</string>
+    <string name="sau_dialog_upgrade_running">Updating...</string>
+    <string name="sau_dialog_vername">Version:</string>
+
+    <!-- v7 preference -->
+    <string name="v7_preference_off">OFF</string>
+    <string name="v7_preference_on">ON</string>
+
+    <!-- Ten thousand -->
+    <string name="ten_thousand">10,000</string>
+
+    <!-- Negative talkback -->
+    <string name="negative_talk">Negative</string>
+
+    <!-- Default values -->
+    <string name="december">December</string>
+    <string name="februry">February</string>
+    <string name="january">January</string>
+    <string name="march">March</string>
+    <string name="may">May</string>
+    <string name="november">November</string>
+    <string name="october">October</string>
+    <string name="september">September</string>
+
+    <!-- Lunar calendar -->
+    <string name="lunar_january">正月</string>
+    <string name="lunar_februry">二月</string>
+    <string name="lunar_march">三月</string>
+    <string name="lunar_april">四月</string>
+    <string name="lunar_may">五月</string>
+    <string name="lunar_june">六月</string>
+    <string name="lunar_july">七月</string>
+    <string name="lunar_august">八月</string>
+    <string name="lunar_september">九月</string>
+    <string name="lunar_october">十月</string>
+    <string name="lunar_november">冬月</string>
+    <string name="lunar_december">腊月</string>
+
+    <!-- Number length -->
+    <string name="number_length_upper_limit">Digit length exceeds limit</string>
+</resources>

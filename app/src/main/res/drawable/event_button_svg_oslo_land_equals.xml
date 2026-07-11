@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:enterFadeDuration="100" android:exitFadeDuration="100"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/svg_oslo_land_equals_with_down" />
+    <item android:state_pressed="false" android:drawable="@drawable/svg_oslo_land_equals" />
+    <item android:drawable="@drawable/svg_oslo_land_equals" />
+</selector>

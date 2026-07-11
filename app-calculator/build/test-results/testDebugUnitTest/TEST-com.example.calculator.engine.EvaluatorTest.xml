@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.calculator.engine.EvaluatorTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2026-07-11T04:38:07" hostname="hyplo" time="0.032">
+  <properties/>
+  <testcase name="testSinDegree" classname="com.example.calculator.engine.EvaluatorTest" time="0.018"/>
+  <testcase name="testPower" classname="com.example.calculator.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="testCube" classname="com.example.calculator.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="testSqrt" classname="com.example.calculator.engine.EvaluatorTest" time="0.0"/>
+  <testcase name="testPercent" classname="com.example.calculator.engine.EvaluatorTest" time="0.0"/>
+  <testcase name="testCosDegree" classname="com.example.calculator.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="testPi" classname="com.example.calculator.engine.EvaluatorTest" time="0.0"/>
+  <testcase name="testBasicAddition" classname="com.example.calculator.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="testFactorial" classname="com.example.calculator.engine.EvaluatorTest" time="0.0"/>
+  <testcase name="testPrecedence" classname="com.example.calculator.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="testMultipleNegate" classname="com.example.calculator.engine.EvaluatorTest" time="0.004"/>
+  <testcase name="testComplexExpression" classname="com.example.calculator.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="testParentheses" classname="com.example.calculator.engine.EvaluatorTest" time="0.0"/>
+  <testcase name="testDivisionByZero" classname="com.example.calculator.engine.EvaluatorTest" time="0.0"/>
+  <testcase name="testBasicDivision" classname="com.example.calculator.engine.EvaluatorTest" time="0.0"/>
+  <testcase name="testBasicMultiplication" classname="com.example.calculator.engine.EvaluatorTest" time="0.0"/>
+  <testcase name="testDecimal" classname="com.example.calculator.engine.EvaluatorTest" time="0.0"/>
+  <testcase name="testNegate" classname="com.example.calculator.engine.EvaluatorTest" time="0.0"/>
+  <testcase name="testBasicSubtraction" classname="com.example.calculator.engine.EvaluatorTest" time="0.0"/>
+  <testcase name="testSquare" classname="com.example.calculator.engine.EvaluatorTest" time="0.001"/>
+  <testcase name="testNegateWithAddition" classname="com.example.calculator.engine.EvaluatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
