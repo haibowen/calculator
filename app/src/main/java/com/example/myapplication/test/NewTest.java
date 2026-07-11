@@ -10,4 +10,9 @@ public class NewTest {
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }
